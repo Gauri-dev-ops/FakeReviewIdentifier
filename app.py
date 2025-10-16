@@ -70,10 +70,3 @@ with col2:
     else:
         st.write("Click **Analyze** to check the review.")
 
-st.markdown("---")
-st.markdown("### Tips to improve accuracy")
-st.write("""
-- Add reviewer metadata (rating, review length, reviewer account age) to improve predictions.
-- Fine‑tune the model on a labeled dataset for your target domain (Amazon, Yelp, etc.).
-- Use ensemble heuristics (model + rules) for better precision.
-""")
